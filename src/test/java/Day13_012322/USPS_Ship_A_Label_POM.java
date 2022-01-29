@@ -14,6 +14,7 @@ public class USPS_Ship_A_Label_POM extends Reusable_Annotations {
         logger.log(LogStatus.INFO,"Navigating to USPS home page");
         driver.navigate().to("https://www.usps.com");
 
+        //test
         //verify the tabs count
         BaseClass.homepage().getNavigationTabsCount();
 
